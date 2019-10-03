@@ -1,0 +1,104 @@
+.subscribe-text {
+    font-size: 1.4rem;
+    font-weight: 400;
+    /* margin-top: -68px; */
+    font-style: italic;
+    /* padding-top: 15px; */
+    color: white;
+}
+.subscribe-title {
+    font-size: 2rem;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    color: white;
+}
+.subscribe-input {
+    position: relative;
+    display: inline;
+    border-radius: 1000px 0px 0px 1000px;
+    padding-left: 1em;
+    padding-right: 1em;
+    transition: all 0.8s;
+    padding-bottom: 5px;
+    font-size: 1.5rem;
+    background-color: #4fc1ea;
+    border-color: #ffffff;
+    color: #ffffff;
+    max-width: 100%;
+    width: 100%;
+    box-shadow: none !important;
+    border: 3px solid #ffffff;
+}
+.subscribe-button {
+    position: relative;
+    display: inline;
+    border-radius: 0px 1000px 1000px 0px;
+    font-size: 2rem;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    font-weight: 900;
+    padding-left: 17px;
+    color: #1d2339;
+    border-color: white;
+    margin-left: -5px;
+}
+
+.subscribe-button:hover {background-color: #1ddba5;border-color: transparent;color: white;}
+.subscribe-notify {
+    display: block;
+    position: relative;
+    font-size: .9rem;
+    color: #ae0000;
+    margin-left: 20px;
+    padding-bottom: 50px;
+}
+.subscribe-notify-success {
+    color: #00edb1;
+    display: block;
+}
+.subscribe-notify-failure {
+    display: block;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.subscribe-form {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.subscribe-section {
+    background-color: #ff5555;
+    background-image: url(images/newsletter.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (min-width: 768px) {
+
+.subscribe-text { margin-top:-20px
+}
+
+.subscribe-column {
+    width: 50%;
+}
+
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
