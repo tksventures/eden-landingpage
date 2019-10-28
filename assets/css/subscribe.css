@@ -46,7 +46,7 @@
 .subscribe-button:hover {background-color: #1ddba5;border-color: transparent;color: white;}
 .subscribe-notify {
     position: absolute;
-    top: 75px;
+    top: 70px;
     font-size: .9rem;
     color: #ae0000;
     max-width: 300px;
